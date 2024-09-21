@@ -1,7 +1,7 @@
-params.refFa = '~/ansel_project1/reference/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa'
-params.refGtf = '~/ansel_project1/reference/Homo_sapiens.GRCh38.91.gtf'
-params.reads = '~/ansel_project1/fastq/SGNex_H9_directRNA_replicate3_run1.fastq.gz'
-params.outdir = '~/ansel_project1/results'
+params.refFa = '~/dsa_assignment/reference/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa'
+params.refGtf = '~/dsa_assignment/reference/Homo_sapiens.GRCh38.91.gtf'
+params.reads = '~/dsa_assignment/fastq/SGNex_Hct116_directRNA_replicate1_run1.fastq.gz'
+params.outdir = '~/dsa_assignment/results'
 
 process MINIMAP2_ALIGN {
   input:
